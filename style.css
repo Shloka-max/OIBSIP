@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.navbar{
+    height: 50px;
+    background-color: #120D31;
+    width: 100%;
+    color: #F0D3F7;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-content a{
+    text-decoration: none;
+    color: #F0D3F7;
+    margin-left: 25px;
+    height: 30px;
+}
+.nav-content a:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.nav-search{
+    background-color: white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+.nav-search:hover{
+    border: 2px solid rgb(255, 149, 0);
+}
+.search-logo{
+    font-weight: bold;
+    color: #302F4D;
+    width: 30px;
+    padding-left: 5px;
+}
+.placeholder{
+    border: none;
+    width: 660px;
+}
+.foodlogo{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.cartlogo{
+    height:20px;
+    width:20px;
+    font-size: 1.9rem;
+    display: flex;
+
+}
+/* secion2 */
+.indianfood{
+    height: 900px;
+    width: 100%;
+    background-color: #A57982;
+}
+.cuisine{
+    font-size: 3.5rem;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.cuisine:hover{
+    transform: scale(-1.8);
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.cuisine-cont{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    text-align: center;
+    height: 60px;
+    background-color: #302F4D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.foodpot-logo{
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    transform: translateX(-60px);
+}
+.north-indian{
+    width:97%;
+    height: 650px;
+    background-color: white;
+    margin: 25px;
+    text-align: center;
+}
+.north-indian pre{
+    font-size: 2.5rem;
+    font-family: fantasy;
+    margin-top: 5px;
+}
+.box{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border: 1.5px solid black;
+}
+.box1{
+    margin-top: 10px;
+
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mini_box{
+    height: 350px;
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right:25px;
+   
+    border:1.5px solid black; ;
+}
+.boxes button{
+    background-color: #302F4D;
+    height:30px;
+    width: 100px;
+    border-radius: 10%;
+    color: white;
+}
+.boxes button:hover{
+    border: 3px dotted #F0D3F7;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.boxes p{
+    display: inline;
+    font-family: cursive;
+    margin-top:30px;
+    font-size: 1.4rem;
+}
+.box1_1{
+        background-image: url("roticurry.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.box2_1{
+    background-image: url("dalrice.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3_1{
+    background-image: url("paneermuglai.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4_1{
+    background-image: url("chickenkol.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* section south indian */
+.southindian{
+    height: 750px;
+    width: 100%;
+    background-color: #302F4D;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.south-indian{
+    width:97%;
+    height: 650px;
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.south-indian pre{
+    font-size: 2.5rem;
+    font-family: fantasy;
+    margin-top: 5px;
+}
+.box5_1{
+    background-image: url("masaladosa.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box6_1{
+background-image: url("ravaidli.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.box7_1{
+background-image: url("bisibelebath.webp");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.box8_1{
+background-image: url("pongal.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+/* section chinese */
+.chinese{
+    height: 750px;
+    width: 100%;
+    background-color: #F0D3F7;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.chinese-indian{
+    width:97%;
+    height: 650px;
+    background-color: white;
+    margin-top: 50px;
+    text-align: center;
+}
+.chinese-indian pre{
+    font-size: 2.5rem;
+    font-family: fantasy;
+    margin-top: 5px;
+}
+.box9_1{
+    background-image: url("sfr.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box10_1{
+background-image: url("chicken\ noodles.webp");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.box11_1{
+background-image: url("gobi.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.box12_1{
+background-image: url("suchi.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.footcontact{
+    height: 50px;
+    background-color: #120D31;
+    width: 100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footcontact a{
+    color: #F0D3F7;
+    text-decoration: none;
+}
+.footcontact a:hover{
+    text-decoration: underline;
+}
+span{
+    animation: blink 1s linear infinite;
+}
+@keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+}
